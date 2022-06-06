@@ -9,7 +9,7 @@ function About() {
         <div className='photo-box'>
           <div className='photo-text name-intro'>Hello! I'm</div>
           <div className='photo-text name-style'>Emily Pape</div>
-          <img src={backgroundImage} alt='background' style={{ width: '100%' }} />
+          <img className='background-image' src={backgroundImage} alt='background' style={{ width: '90%' }} />
           <div className='photo-text position-info'>Full-Stack Developer</div>
           <div className='about-box'>
             <img className='headshot' src={headshot} alt='headshot' />

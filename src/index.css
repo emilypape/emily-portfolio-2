@@ -20,10 +20,14 @@ code {
   position: relative;
 }
 
+.background-image {
+  margin-left: 4em;
+}
+
 .name-intro {
   position: absolute;
   top: 5em;
-  left: 0.5em;
+  left: 1.5em;
   font-size: 50pt;
   font-weight: 600;
   text-shadow: 1px 1px 5px black;
@@ -34,7 +38,7 @@ code {
   font-size: 60pt;
   font-weight: 900;
   top: 5.25em;
-  left: 1.2em;
+  left: 1.5em;
   text-shadow: 2px 2px 8px black;
 }
 
@@ -42,19 +46,22 @@ code {
   position: absolute;
   text-shadow: 2px 2px 8px black;
   top: 4.5em;
-  font-size: 55pt;
+  font-size: 50pt;
   left: 13em;
   font-weight: 700;
+  text-align: center;
+  padding: 0.5em;
+  background-color: grey;
 }
 
 .about-box {
   display: flex;
   color: white;
   background-color: #003120;
-  margin-left: 4em;
-  margin-right: 4em;
+  margin-left: 7em;
+  margin-right: 7em;
   position: absolute;
-  top: 55em;
+  top: 48em;
   padding: 5em;
 }
 
@@ -71,6 +78,10 @@ code {
 
 /* start media queries */
 @media only screen and (max-width: 768px) {
+  .background-image {
+    margin-left: 2.5em;
+  }
+
   .name-intro {
     position: absolute;
     top: 7em;
@@ -92,15 +103,15 @@ code {
     font-weight: 900;
     top: 6.5em;
     left: 15em;
+    margin-left: 1em;
   }
 
   .about-box {
-    margin-top: -1em;
-    margin-left: 2em;
-    margin-right: 2em;
+    margin-left: 4em;
+    margin-right: 4em;
     position: absolute;
     padding: 2em;
-    top: 29em;
+    top: 26em;
   }
   .headshot {
     width: 30%;
@@ -115,9 +126,13 @@ code {
 }
 
 @media only screen and (max-width: 480px) {
+  .background-image {
+    margin-left: 1.4em;
+  }
+
   .name-intro {
     top: 4.5em;
-    left: 0.25em;
+    left: 1.3em;
     font-size: 16pt;
     font-weight: 600;
   }
@@ -127,17 +142,20 @@ code {
     font-size: 18pt;
     font-weight: 900;
     top: 5.5em;
-    left: 1.25em;
+    left: 1.5em;
   }
 
   .position-info {
     top: 5.25em;
     font-size: 14pt;
     left: 15em;
+    margin-left: -1em;
   }
 
   .about-box {
-    top: 17em;
+    top: 14em;
+    margin-left: 2.5em;
+    margin-right: 2.5em;
   }
 
   .headshot {

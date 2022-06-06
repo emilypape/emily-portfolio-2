@@ -8,6 +8,7 @@ function App() {
       <main>
         <About />
       </main>
+      <footer></footer>
     </div>
   );
 }
