@@ -6,6 +6,7 @@ function App() {
   return (
     <div>
       <main>
+        <Nav />
         <About />
       </main>
       <footer></footer>
