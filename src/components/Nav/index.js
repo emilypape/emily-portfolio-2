@@ -7,10 +7,10 @@ function Nav() {
         <div className='initials'>EP</div>
       </a>
       <div className='nav-elements-box'>
-        <div className='about-me'>About Me &nbsp;</div>
-        <div className='work'>Work &nbsp;</div>
-        <div className='contact-me'>Contact Me &nbsp;</div>
-        <div className='resume'>Resume</div>
+        <div className='about-me hover-nav'>About Me &nbsp;</div>
+        <div className='work hover-nav'>Work &nbsp;</div>
+        <div className='contact-me hover-nav'>Contact Me &nbsp;</div>
+        <div className='resume hover-nav'>Resume</div>
       </div>
     </nav>
   );
