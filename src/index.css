@@ -152,14 +152,16 @@ code {
 
 .hike-buddy-description {
   display: none;
-  text-align: center;
-  position: absolute;
+  margin-top: -21em;
   color: white;
-  padding: 3.5em;
   font-size: 16pt;
-  top: 0.5em;
-  left: -2.5em;
+  text-align: center;
   z-index: 50;
+}
+
+.hb-span-text {
+  font-weight: 700;
+  color: #fa9f42;
 }
 
 .hike-buddy-img:hover {
@@ -170,7 +172,42 @@ code {
   display: block;
 }
 
-.hb-span-text {
+/* git blogging styles */
+.gb-carousel {
+  position: relative;
+}
+
+.git-blogging-description {
+  display: none;
+  margin-top: -13.5em;
+  margin-right: 2em;
+  margin-left: 2em;
+  color: white;
+  font-size: 16pt;
+  text-align: center;
+  z-index: 50;
+}
+
+.gb-span-text {
+  font-weight: 700;
+  color: #fa9f42;
+}
+
+.blog-img:hover {
+  opacity: 0.2;
+}
+
+.blog-img:hover ~ .git-blogging-description {
+  display: block;
+}
+
+/* parkscape styles */
+.parkscape-description {
+  color: white;
+  text-align: center;
+}
+
+.ps-span-text {
   font-weight: 700;
   color: #fa9f42;
 }
@@ -228,6 +265,43 @@ code {
   .change-bio-text {
     font-size: 21pt;
   }
+
+  /* hike buddy carousel image */
+  .hike-buddy-description {
+    margin-top: 3em;
+    display: block;
+    color: white;
+    font-size: 22pt;
+    text-align: center;
+    z-index: 50;
+  }
+  .hb-span-text {
+    font-weight: 700;
+    color: #fa9f42;
+  }
+
+  /* gb carousel image */
+  .git-blogging-description {
+    display: block;
+    margin-top: 3em;
+    margin-right: 2em;
+    margin-left: 2em;
+    color: white;
+    font-size: 22pt;
+    text-align: center;
+    z-index: 50;
+  }
+
+  .gb-span-text {
+    font-weight: 700;
+    color: #fa9f42;
+  }
+
+  /* parkscape */
+  .parkscape-description {
+    margin-top: 3em;
+    font-size: 22pt;
+  }
 }
 @media only screen and (max-width: 768px) {
   .background-image {
@@ -284,15 +358,34 @@ code {
 
   /* hike buddy carousel image */
   .hike-buddy-description {
-    padding: 3.5em;
-    font-size: 16pt;
-    top: 0.5em;
-    left: -2.5em;
+    margin-top: 3em;
+    display: block;
+    color: white;
+    font-size: 18pt;
+    text-align: center;
     z-index: 50;
   }
   .hb-span-text {
     font-weight: 700;
     color: #fa9f42;
+  }
+
+  /* gb carousel image */
+  .git-blogging-description {
+    display: block;
+    margin-top: 3em;
+    margin-right: 2em;
+    margin-left: 2em;
+    color: white;
+    font-size: 18pt;
+    text-align: center;
+    z-index: 50;
+  }
+
+  /* parkscape */
+  .parkscape-description {
+    margin-top: 3em;
+    font-size: 18pt;
   }
 }
 
@@ -350,5 +443,17 @@ code {
 
   .nav-elements-box {
     font-size: 10pt;
+  }
+
+  .hike-buddy-description {
+    font-size: 14pt;
+  }
+
+  .git-blogging-description {
+    font-size: 14pt;
+  }
+
+  .parkscape-description {
+    font-size: 14pt;
   }
 }

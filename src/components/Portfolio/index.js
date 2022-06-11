@@ -9,7 +9,7 @@ import passwordgenerator from '../../assets/images/passwordgenerator.png';
 
 function Portfolio() {
   return (
-    <Carousel gap={10} loop>
+    <Carousel gap={20} loop>
       <Carousel.Item className='hb-carousel'>
         <a target='_blank' rel='noreferrer' href='https://still-shore-87425.herokuapp.com/'>
           <img className='hike-buddy-img' width='100%' src={hikeBuddy} alt='hikeBuddy' />
@@ -27,28 +27,64 @@ function Portfolio() {
           </p>
         </a>
       </Carousel.Item>
-      <Carousel.Item>
+      <Carousel.Item className='gb-carousel'>
         <a target='_blank' rel='noreferrer' href='https://git-blogging.herokuapp.com/'>
           <img className='blog-img' width='100%' src={techBlog} alt='tech blog' />
-          <p> tech blog for techy thoughts</p>
+          <p className='git-blogging-description'>
+            <span className='gb-span-text'>Git Blogging</span> is an online blog where users can share thoughts on all
+            things techy! Users can make, update, and delete posts as well as comment on other user's posts.
+            <span className='gb-span-text'> Git Blogging</span> is built using backend technologies such as{' '}
+            <span className='gb-span-text'>SQL</span>, <span className='gb-span-text'>Sequelize</span>, and{' '}
+            <span className='gb-span-text'>Express</span>. With <span className='gb-span-text'>Javascript</span>,{' '}
+            <span className='gb-span-text'>HTML</span>, <span className='gb-span-text'>Custom CSS</span>, and{' '}
+            <span className='gb-span-text'>Handlebars.js</span> supporting the frontend.
+          </p>
         </a>
       </Carousel.Item>
       <Carousel.Item>
         <a target='_blank' rel='noreferrer' href='https://emilypape.github.io/parkscape/'>
           <img className='parkscape-img' width='100%' src={parkscape} alt='ParkScape' />
-          <p>This is a np app for trip planning</p>
+          <p className='parkscape-description'>
+            <span className='ps-span-text'>Parkscape</span> was built to help plan last minute trips to America's
+            National Parks! It utilizes the <span className='ps-span-text'>NPS API</span>, and the{' '}
+            <span className='ps-span-text'>OpenWeatherMap API</span> to give users in depth information on a particular
+            park and the travel conditions. Users can also compile a bucketlist of attractions to the parks, and update
+            and delete from the list as they please. <span className='ps-span-text'>Parkscape</span> is built with{' '}
+            <span className='ps-span-text'>Javascript</span>, <span className='ps-span-text'>JQuery</span>,{' '}
+            <span className='ps-span-text'>HTML</span>, <span className='ps-span-text'>Custom CSS</span>, and{' '}
+            <span className='ps-span-text'>Materialize</span>.{' '}
+          </p>
         </a>
       </Carousel.Item>
       <Carousel.Item>
         <a target='_blank' rel='noreferrer' href='https://emilypape.github.io/weather-dashboard/'>
           <img className='weather-dash-img' width='100%' src={weather} alt='Weather Dashboard' />
-          <p>Lets check the weather!</p>
+          <p className='weather-dash-description'>
+            {' '}
+            <span className='wd-span-text'>Weather Dashboard</span> utilizes the{' '}
+            <span className='wd-span-text'>OpenWeatherMap API</span> to provide users with a 5-day forecast for a city
+            of their choosing. The user's searches are saved, and can be re-selected to view a previous city's forecast.
+            In addition to providing the current day's weather, it also displays the 5-day forecast for the area.{' '}
+            <span className='wd-span-text'>Weather Dashboard</span> is built using{' '}
+            <span className='wd-span-text'>Javascript</span>, <span className='wd-span-text'>HTML</span>, and{' '}
+            <span className='wd-span-text'>Custom CSS</span>
+          </p>
         </a>
       </Carousel.Item>
       <Carousel.Item>
         <a target='_blank' rel='noreferrer' href='https://github.com/emilypape/office-roster'>
           <img className='roster-img' width='100%' src={officeroster} alt='Office Roster' />
-          <p>Command Line app for team building</p>
+          <p className='roster-description'>
+            <span className='or-span-text'>Office Roster</span> is a command line app that builds your work team based
+            off of user input. <span className='or-span-text'>Office Roster</span> is a
+            <span className='or-span-text'>Node.js</span> app that uses the{' '}
+            <span className='or-span-text'>inquirer package</span> to collect information. The application prompts for a
+            manager, engineer, and intern position and generates the HTML page with the user's input.{' '}
+            <span className='or-span-text'>Office Roster</span> uses <span className='or-span-text'>Node.js</span>,
+            <span className='or-span-text'>FS package</span>, <span className='or-span-text'>Inquierer package</span>,{' '}
+            <span className='or-span-text'>Javascript</span>, <span className='or-span-text'>HTML</span>, and{' '}
+            <span className='or-span-text'>Custom CSS</span>{' '}
+          </p>
         </a>
       </Carousel.Item>
       <Carousel.Item>
