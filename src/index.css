@@ -152,9 +152,9 @@ code {
 
 .hike-buddy-description {
   display: none;
-  margin-top: -21em;
+  margin-top: -20em;
   color: white;
-  font-size: 16pt;
+  font-size: 25pt;
   text-align: center;
   z-index: 50;
 }
@@ -179,11 +179,9 @@ code {
 
 .git-blogging-description {
   display: none;
-  margin-top: -13.5em;
-  margin-right: 2em;
-  margin-left: 2em;
+  margin-top: -18em;
   color: white;
-  font-size: 16pt;
+  font-size: 25pt;
   text-align: center;
   z-index: 50;
 }
@@ -203,13 +201,90 @@ code {
 
 /* parkscape styles */
 .parkscape-description {
+  display: none;
+  margin-top: -18em;
+  font-size: 25pt;
   color: white;
   text-align: center;
+}
+
+.parkscape-img:hover {
+  opacity: 0.2;
+}
+
+.parkscape-img:hover ~ .parkscape-description {
+  display: block;
 }
 
 .ps-span-text {
   font-weight: 700;
   color: #fa9f42;
+}
+
+/* weather dash styles */
+.weather-dash-description {
+  display: none;
+  margin-top: -18em;
+  font-size: 25pt;
+  color: white;
+  text-align: center;
+}
+
+.weather-dash-img:hover {
+  opacity: 0.2;
+}
+
+.weather-dash-img:hover ~ .weather-dash-description {
+  display: block;
+}
+
+.wd-span-text {
+  font-weight: 700;
+  color: #fa9f42;
+}
+
+/* team generator */
+.roster-description {
+  display: none;
+  margin-top: -18em;
+  font-size: 25pt;
+  color: white;
+  text-align: center;
+}
+
+.roster-img:hover {
+  opacity: 0.2;
+}
+
+.roster-img:hover ~ .roster-description {
+  display: block;
+}
+
+.or-span-text {
+  font-weight: 700;
+  color: #fa9f42;
+}
+
+/* password gen */
+.password-description {
+  display: none;
+  margin-top: -18em;
+  font-size: 25pt;
+  color: white;
+  text-align: center;
+}
+
+.password-gen-img:hover {
+  opacity: 0.2;
+}
+
+.password-gen-img:hover ~ .password-description {
+  display: block;
+}
+
+.pg-span-text {
+  color: #fa9f42;
+  font-weight: 700;
 }
 
 /* start media queries */
@@ -299,6 +374,28 @@ code {
 
   /* parkscape */
   .parkscape-description {
+    display: block;
+    margin-top: 3em;
+    font-size: 22pt;
+  }
+
+  /* weather dash */
+  .weather-dash-description {
+    display: block;
+    margin-top: 3em;
+    font-size: 22pt;
+  }
+
+  /* roster */
+  .roster-description {
+    display: block;
+    margin-top: 3em;
+    font-size: 22pt;
+  }
+
+  /* password description */
+  .password-description {
+    display: block;
     margin-top: 3em;
     font-size: 22pt;
   }
@@ -387,6 +484,21 @@ code {
     margin-top: 3em;
     font-size: 18pt;
   }
+
+  /* weather dash */
+  .weather-dash-description {
+    font-size: 18pt;
+  }
+
+  /* roster */
+  .roster-description {
+    font-size: 18pt;
+  }
+
+  /* password gen */
+  .password-description {
+    font-size: 18pt;
+  }
 }
 
 @media only screen and (max-width: 480px) {
@@ -454,6 +566,18 @@ code {
   }
 
   .parkscape-description {
+    font-size: 14pt;
+  }
+
+  .weather-dash-description {
+    font-size: 14pt;
+  }
+
+  .roster-description {
+    font-size: 14pt;
+  }
+
+  .password-description {
     font-size: 14pt;
   }
 }

@@ -90,7 +90,13 @@ function Portfolio() {
       <Carousel.Item>
         <a target='_blank' rel='noreferrer' href='https://emilypape.github.io/password-parakeet/'>
           <img className='password-gen-img' width='100%' src={passwordgenerator} alt='Password Generator' />
-          <p>Password generator for randomly selected passwords</p>
+          <p className='password-description'>
+            <span className='pg-span-text'>Password Generator</span> is a{' '}
+            <span className='pg-span-text'>Javascript</span> application that prompts the user for specific qualities
+            they would like in a password, and then generates a password to meet those paramaters. It is built using{' '}
+            <span className='pg-span-text'>Javascript</span>, <span className='pg-span-text'>HTML</span>, and{' '}
+            <span className='pg-span-text'>CSS</span>
+          </p>
         </a>
       </Carousel.Item>
     </Carousel>
