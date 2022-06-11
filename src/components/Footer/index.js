@@ -3,7 +3,7 @@ import { Icon } from '@iconify/react';
 
 function Footer() {
   return (
-    <footer className='footer'>
+    <footer className='footer-styles'>
       <div className='footer-box'>
         <Icon icon='akar-icons:github-fill' />
         &nbsp;&nbsp;&nbsp;

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Nav() {
   return (
@@ -7,10 +8,18 @@ function Nav() {
         <div className='initials'>EP</div>
       </a>
       <div className='nav-elements-box'>
-        <div className='about-me hover-nav'>About Me &nbsp;</div>
-        <div className='work hover-nav'>Work &nbsp;</div>
-        <div className='contact-me hover-nav'>Contact Me &nbsp;</div>
-        <div className='resume hover-nav'>Resume</div>
+        <Link to='/' className='about-me hover-nav'>
+          About Me &nbsp; &nbsp;
+        </Link>
+        <Link to='/Portfolio' className='work hover-nav'>
+          Portfolio &nbsp; &nbsp;
+        </Link>
+        <Link to='/Contact' className='contact-me hover-nav'>
+          Contact Me &nbsp; &nbsp;
+        </Link>
+        <Link to='/Resume' className='resume hover-nav'>
+          Resume
+        </Link>
       </div>
     </nav>
   );
