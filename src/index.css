@@ -287,6 +287,49 @@ code {
   font-weight: 700;
 }
 
+.github-btn {
+  background-color: #fa9f42;
+  margin-top: 0.5em;
+  color: white;
+  border-radius: 10%;
+  padding: 0.2em;
+  justify-content: center;
+}
+
+.btn-link {
+  display: flex;
+  justify-content: center;
+}
+
+.modal-background {
+  z-index: 3;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 225%;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-modal {
+  background-color: #292929;
+  z-index: 4;
+  width: 50%;
+  height: 20%;
+  margin-top: -50em;
+}
+
+.modal-contact-header {
+  background-color: #fa9f42;
+  color: white;
+  font-weight: 900;
+  font-size: 20pt;
+  padding: 0.5em;
+}
+
 /* start media queries */
 @media only screen and (max-width: 920px) {
   .background-image {
@@ -398,6 +441,14 @@ code {
     display: block;
     margin-top: 3em;
     font-size: 22pt;
+  }
+
+  .modal-background {
+    height: 110%;
+  }
+
+  .contact-modal {
+    margin-top: -25em;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -579,5 +630,13 @@ code {
 
   .password-description {
     font-size: 14pt;
+  }
+
+  .modal-background {
+    height: 100%;
+  }
+
+  .contact-modal {
+    margin-top: -20em;
   }
 }

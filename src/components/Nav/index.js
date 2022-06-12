@@ -1,9 +1,17 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import Contact from '../Contact';
 
 function Nav() {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const toggleModal = () => {
+    setIsModalOpen(!isModalOpen);
+  };
+
   return (
     <nav className='nav-bar'>
+      <Contact toggleModal={toggleModal} isModalOpen={isModalOpen} />
       <a className='initial-box'>
         <div className='initials'>EP</div>
       </a>
@@ -14,9 +22,9 @@ function Nav() {
         <Link to='/Portfolio' className='work hover-nav'>
           Portfolio &nbsp; &nbsp;
         </Link>
-        <Link to='/Contact' className='contact-me hover-nav'>
+        <div className='contact-me hover-nav' onClick={() => toggleModal()}>
           Contact Me &nbsp; &nbsp;
-        </Link>
+        </div>
         <Link to='/Resume' className='resume hover-nav'>
           Resume
         </Link>
