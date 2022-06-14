@@ -151,6 +151,16 @@ code {
 }
 
 /* portfolio styles */
+.icon-position {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.5em;
+  margin-bottom: 6em;
+}
+.icon-prof-styles {
+  z-index: 50;
+}
+
 .hb-carousel {
   position: relative;
 }
@@ -347,6 +357,7 @@ code {
 
 .icon-styles {
   font-size: 4em;
+  color: #fa9f42;
 }
 
 .contact-message {

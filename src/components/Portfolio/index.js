@@ -1,4 +1,5 @@
 import React from 'react';
+import { Icon } from '@iconify/react';
 import Carousel from 'better-react-carousel';
 import hikeBuddy from '../../assets/images/hikeBuddy.png';
 import techBlog from '../../assets/images/techblog.png';
@@ -26,6 +27,9 @@ function Portfolio() {
             <span className='hb-span-text'>Handlebars.js</span> supporting the frontend.{' '}
           </p>
         </a>
+        <a target='_blank' rel='noreferrer' href='https://github.com/emilypape/hike-buddy' className='icon-position'>
+          <Icon className='icon-styles icon-prof-style' icon='akar-icons:github-fill' />
+        </a>
       </Carousel.Item>
       <Carousel.Item className='gb-carousel'>
         <a target='_blank' rel='noreferrer' href='https://git-blogging.herokuapp.com/'>
@@ -39,6 +43,9 @@ function Portfolio() {
             <span className='gb-span-text'>HTML</span>, <span className='gb-span-text'>Custom CSS</span>, and{' '}
             <span className='gb-span-text'>Handlebars.js</span> supporting the frontend.
           </p>
+        </a>
+        <a target='_blank' rel='noreferrer' href='https://github.com/emilypape/git-blogging' className='icon-position'>
+          <Icon className='icon-styles icon-prof-style' icon='akar-icons:github-fill' />
         </a>
       </Carousel.Item>
       <Carousel.Item>
@@ -55,6 +62,9 @@ function Portfolio() {
             <span className='ps-span-text'>Materialize</span>.{' '}
           </p>
         </a>
+        <a target='_blank' rel='noreferrer' href='https://github.com/emilypape/parkscape' className='icon-position'>
+          <Icon className='icon-styles icon-prof-style' icon='akar-icons:github-fill' />
+        </a>
       </Carousel.Item>
       <Carousel.Item>
         <a target='_blank' rel='noreferrer' href='https://emilypape.github.io/weather-dashboard/'>
@@ -69,6 +79,13 @@ function Portfolio() {
             <span className='wd-span-text'>Javascript</span>, <span className='wd-span-text'>HTML</span>, and{' '}
             <span className='wd-span-text'>Custom CSS</span>
           </p>
+        </a>
+        <a
+          target='_blank'
+          rel='noreferrer'
+          href='https://github.com/emilypape/weather-dashboard'
+          className='icon-position'>
+          <Icon className='icon-styles icon-prof-style' icon='akar-icons:github-fill' />
         </a>
       </Carousel.Item>
       <Carousel.Item>
@@ -86,6 +103,9 @@ function Portfolio() {
             <span className='or-span-text'>Custom CSS</span>{' '}
           </p>
         </a>
+        <a target='_blank' rel='noreferrer' href='https://github.com/emilypape/office-roster' className='icon-position'>
+          <Icon className='icon-styles icon-prof-style' icon='akar-icons:github-fill' />
+        </a>
       </Carousel.Item>
       <Carousel.Item>
         <a target='_blank' rel='noreferrer' href='https://emilypape.github.io/password-parakeet/'>
@@ -97,6 +117,13 @@ function Portfolio() {
             <span className='pg-span-text'>Javascript</span>, <span className='pg-span-text'>HTML</span>, and{' '}
             <span className='pg-span-text'>CSS</span>
           </p>
+        </a>
+        <a
+          target='_blank'
+          rel='noreferrer'
+          href='https://github.com/emilypape/password-parakeet'
+          className='icon-position'>
+          <Icon className='icon-styles icon-prof-style' icon='akar-icons:github-fill' />
         </a>
       </Carousel.Item>
     </Carousel>
