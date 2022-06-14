@@ -115,6 +115,7 @@ code {
 /* end about section */
 
 /* nav styles */
+
 .nav-bar {
   display: flex;
   justify-content: space-between;
@@ -143,6 +144,10 @@ code {
 
 .hover-nav:hover {
   color: #fa9f42;
+}
+
+.contact-me {
+  cursor: pointer;
 }
 
 /* portfolio styles */
@@ -307,8 +312,8 @@ code {
   top: 0;
   left: 0;
   width: 100%;
-  height: 225%;
-  background-color: rgba(0, 0, 0, 0.4);
+  height: 175%;
+  background-color: rgba(0, 0, 0, 0.7);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -318,7 +323,7 @@ code {
   background-color: #292929;
   z-index: 4;
   width: 50%;
-  height: 20%;
+  height: 23%;
   margin-top: -50em;
 }
 
@@ -328,6 +333,33 @@ code {
   font-weight: 900;
   font-size: 20pt;
   padding: 0.5em;
+}
+
+.contact-icon-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-icon {
+  padding: 3em;
+}
+
+.icon-styles {
+  font-size: 4em;
+}
+
+.contact-message {
+  text-align: center;
+  font-size: 14pt;
+  color: white;
+  margin: 1em 5em 0 5em;
+}
+
+.fashion-line-2 {
+  background-color: #fa9f42;
+  width: 100%;
+  height: 0.25em;
 }
 
 /* start media queries */
@@ -450,6 +482,16 @@ code {
   .contact-modal {
     margin-top: -25em;
   }
+
+  /* modal styles */
+  .contact-modal {
+    width: 60%;
+    height: 25%;
+  }
+
+  .contact-message {
+    margin: 1.2em 0.5em 0 0.5em;
+  }
 }
 @media only screen and (max-width: 768px) {
   .background-image {
@@ -550,6 +592,15 @@ code {
   .password-description {
     font-size: 18pt;
   }
+
+  /* modal */
+  .contact-modal {
+    height: 30%;
+  }
+
+  .icon-styles {
+    font-size: 3em;
+  }
 }
 
 @media only screen and (max-width: 480px) {
@@ -638,5 +689,31 @@ code {
 
   .contact-modal {
     margin-top: -20em;
+  }
+
+  /* modal styles */
+  .contact-message {
+    font-size: 12pt;
+    margin: 0;
+    margin-top: 1em;
+  }
+
+  .contact-modal {
+    width: 90%;
+    height: 32%;
+  }
+
+  .contact-icon {
+    padding: 1em;
+  }
+
+  .icon-styles {
+    font-size: 2.5em;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .contact-message {
+    font-size: 10pt;
   }
 }
