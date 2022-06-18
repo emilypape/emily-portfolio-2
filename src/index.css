@@ -447,6 +447,44 @@ code {
   color: #fa9f42;
 }
 
+/* start what i do section of resume */
+.what-i-do {
+  color: white;
+  font-weight: 700;
+  border-bottom: #fa9f42 solid 3px;
+  font-size: 20pt;
+  margin-bottom: 1em;
+}
+
+.what-i-do-box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skill-title-box {
+  display: flex;
+}
+
+.skill-description-box {
+  width: 20em;
+}
+
+.skill-box {
+  margin-left: 3.5em;
+  margin-bottom: 2em;
+}
+
+.icon-resume {
+  font-size: 20pt;
+  margin-left: -1.5em;
+  margin-right: 0.5em;
+}
+
+.skill-title {
+  font-size: 16pt;
+  font-weight: 500;
+}
+
 /* start media queries */
 @media only screen and (max-width: 920px) {
   .background-image {
@@ -738,6 +776,7 @@ code {
 
   .initials {
     padding: 0.2em;
+    margin-left: 0;
   }
 
   .nav-elements-box {
