@@ -6,15 +6,15 @@ function Footer() {
     <footer className='footer-styles'>
       <div className='footer-box'>
         <a target='_blank' rel='noreferrer' href='https://github.com/emilypape'>
-          <Icon icon='akar-icons:github-fill' />
+          <Icon className='footer-gh footer-icon' icon='akar-icons:github-fill' />
         </a>
         &nbsp;&nbsp;&nbsp;
         <a target='_blank' rel='noreferrer' href='https://www.linkedin.com/feed/'>
-          <Icon icon='logos:linkedin-icon' />
+          <Icon className='footer-icon' icon='logos:linkedin-icon' />
         </a>
         &nbsp;&nbsp;&nbsp;
         <a href='mailto:eap6787t@gmail.com'>
-          <Icon icon='logos:google-gmail' />
+          <Icon className='footer-icon' icon='logos:google-gmail' />
         </a>
       </div>
     </footer>
