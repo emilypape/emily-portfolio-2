@@ -1,4 +1,5 @@
 import React from 'react';
+import { Animator, ScrollContainer, ScrollPage } from 'react-scroll-motion';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import About from './components/About';
 import Nav from './components/Nav';

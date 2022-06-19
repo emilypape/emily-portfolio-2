@@ -20,8 +20,7 @@ function Resume() {
             environment.{' '}
           </p>
           <div>
-            <button className='cv-btn'>Download CV</button>
-            <button className='resume-btn'>Download Resume</button>
+            <button className='cv-btn'>Download Resume</button>
           </div>
         </div>
       </div>

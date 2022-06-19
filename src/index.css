@@ -548,6 +548,8 @@ code {
 .reference-text {
   margin-left: 3em;
   margin-bottom: 1em;
+  font-style: italic;
+  opacity: 0.7;
 }
 
 .top-quote-w {

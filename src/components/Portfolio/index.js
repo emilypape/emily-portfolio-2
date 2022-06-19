@@ -26,9 +26,9 @@ function Portfolio() {
             <span className='hb-span-text'>Custom CSS</span>, <span className='hb-span-text'>Tailwind</span>, and{' '}
             <span className='hb-span-text'>Handlebars.js</span> supporting the frontend.{' '}
           </p>
-        </a>
-        <a target='_blank' rel='noreferrer' href='https://github.com/emilypape/hike-buddy' className='icon-position'>
-          <Icon className='icon-styles icon-prof-style' icon='akar-icons:github-fill' />
+          <a target='_blank' rel='noreferrer' href='https://github.com/emilypape/hike-buddy' className='icon-position'>
+            <Icon className='icon-styles icon-prof-style' icon='akar-icons:github-fill' />
+          </a>
         </a>
       </Carousel.Item>
 
