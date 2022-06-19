@@ -1,6 +1,7 @@
 import React from 'react';
 import smileHeadshot from '../../assets/images/smileheadshot.JPG';
 import Details from '../Professional-details';
+import Testimonials from '../Testimonials';
 
 function Resume() {
   return (
@@ -25,6 +26,7 @@ function Resume() {
         </div>
       </div>
       <Details />
+      <Testimonials />
     </div>
   );
 }

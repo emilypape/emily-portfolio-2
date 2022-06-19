@@ -4,9 +4,14 @@ import Contact from '../Contact';
 
 function Nav() {
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [isSelected, setIsSelected] = useState(window.location.pathname);
 
   const toggleModal = () => {
     setIsModalOpen(!isModalOpen);
+  };
+
+  const selectedOnClick = (path) => {
+    setIsSelected(path);
   };
 
   return (
@@ -16,16 +21,25 @@ function Nav() {
         <div className='initials'>EP</div>
       </a>
       <div className='nav-elements-box'>
-        <Link to='/' className='about-me hover-nav'>
+        <Link
+          to='/'
+          className={`about-me hover-nav ${isSelected === '/' ? 'selected' : ''}`}
+          onClick={() => selectedOnClick('/')}>
           About Me &nbsp; &nbsp;
         </Link>
-        <Link to='/Portfolio' className='work hover-nav'>
+        <Link
+          to='/Portfolio'
+          className={`work hover-nav ${isSelected === '/Portfolio' ? 'selected' : ''}`}
+          onClick={() => selectedOnClick('/Portfolio')}>
           Portfolio &nbsp; &nbsp;
         </Link>
         <div className='contact-me hover-nav' onClick={() => toggleModal()}>
           Contact Me &nbsp; &nbsp;
         </div>
-        <Link to='/Resume' className='resume hover-nav'>
+        <Link
+          to='/Resume'
+          className={`resume hover-nav ${isSelected === '/Resume' ? 'selected' : ''}`}
+          onClick={() => selectedOnClick('/Resume')}>
           Resume
         </Link>
       </div>

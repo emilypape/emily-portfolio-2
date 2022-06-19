@@ -13,7 +13,7 @@ function Footer() {
           <Icon className='footer-icon' icon='logos:linkedin-icon' />
         </a>
         &nbsp;&nbsp;&nbsp;
-        <a href='mailto:eap6787t@gmail.com'>
+        <a href='mailto:eap6787@gmail.com'>
           <Icon className='footer-icon' icon='logos:google-gmail' />
         </a>
       </div>

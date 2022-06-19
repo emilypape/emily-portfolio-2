@@ -31,6 +31,7 @@ function Portfolio() {
           <Icon className='icon-styles icon-prof-style' icon='akar-icons:github-fill' />
         </a>
       </Carousel.Item>
+
       <Carousel.Item className='gb-carousel'>
         <a target='_blank' rel='noreferrer' href='https://git-blogging.herokuapp.com/'>
           <img className='blog-img' width='100%' src={techBlog} alt='tech blog' />

@@ -21,7 +21,7 @@ function Contact({ toggleModal, isModalOpen }) {
               <a target='_blank' rel='noreferrer' href='https://www.linkedin.com/feed/' className='contact-icon'>
                 <Icon className='icon-styles' icon='logos:linkedin-icon' />
               </a>
-              <a href='mailto:eap6787t@gmail.com' className='contact-icon'>
+              <a href='mailto:eap6787@gmail.com' className='contact-icon'>
                 <Icon className='icon-styles' icon='logos:google-gmail' />
               </a>
             </div>

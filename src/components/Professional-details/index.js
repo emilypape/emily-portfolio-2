@@ -44,7 +44,7 @@ function Details() {
             </p>
           </div>
         </div>
-        <div className='skill-box'>
+        <div className='skill-box bottom-row'>
           <div className='skill-title-box'>
             <Icon className='icon-resume' icon='emojione-monotone:thought-balloon' color='#fa9f42' />
             <h1 className='skill-title'>Problem Solving</h1>
