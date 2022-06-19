@@ -8,7 +8,7 @@ function Testimonials() {
       <h1 className='testimonials-title'>Testimonials</h1>
       <div className='box-of-referals'>
         <div className='reference-box'>
-          <a href='https://www.linkedin.com/in/warren-tamagri-5648a71ba/'>
+          <a target='_blank' rel='noreferrer' href='https://www.linkedin.com/in/warren-tamagri-5648a71ba/'>
             <img className='reference-img' src={warren} alt='reference ' />
           </a>
           <div className='reference-text-box'>
