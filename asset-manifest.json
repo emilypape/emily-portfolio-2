@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/emily-portfolio-2/static/css/main.0dc99529.css",
+    "main.js": "/emily-portfolio-2/static/js/main.bbea0d41.js",
+    "static/js/787.c3decee6.chunk.js": "/emily-portfolio-2/static/js/787.c3decee6.chunk.js",
+    "static/media/smileheadshot.JPG": "/emily-portfolio-2/static/media/smileheadshot.e92f086a7bfda54f8a29.JPG",
+    "static/media/hikeBuddy.png": "/emily-portfolio-2/static/media/hikeBuddy.093678fa3b110dcaf0bf.png",
+    "static/media/parkscape.png": "/emily-portfolio-2/static/media/parkscape.d1781b279f57b8ad7e9f.png",
+    "static/media/deanna.jpg": "/emily-portfolio-2/static/media/deanna.25506b7681eb8bf8e249.jpg",
+    "static/media/emilyBGPic.jpg": "/emily-portfolio-2/static/media/emilyBGPic.b330f8a1559255ec7eb4.jpg",
+    "static/media/weather.png": "/emily-portfolio-2/static/media/weather.89cd40c3de92be18a533.png",
+    "static/media/officeroster.png": "/emily-portfolio-2/static/media/officeroster.be62d5cb6e963b0eb8eb.png",
+    "static/media/techblog.png": "/emily-portfolio-2/static/media/techblog.ef9229bcac0acc253a06.png",
+    "static/media/passwordgenerator.png": "/emily-portfolio-2/static/media/passwordgenerator.d5ac6c4152739e753e5a.png",
+    "static/media/warren.jpg": "/emily-portfolio-2/static/media/warren.2fde41126e0133b1781b.jpg",
+    "static/media/headshot.jpeg": "/emily-portfolio-2/static/media/headshot.2258e59275c84a3c6d51.jpeg",
+    "index.html": "/emily-portfolio-2/index.html",
+    "main.0dc99529.css.map": "/emily-portfolio-2/static/css/main.0dc99529.css.map",
+    "main.bbea0d41.js.map": "/emily-portfolio-2/static/js/main.bbea0d41.js.map",
+    "787.c3decee6.chunk.js.map": "/emily-portfolio-2/static/js/787.c3decee6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0dc99529.css",
+    "static/js/main.bbea0d41.js"
+  ]
+}
