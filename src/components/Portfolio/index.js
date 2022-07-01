@@ -7,6 +7,7 @@ import parkscape from '../../assets/images/parkscape.png';
 import weather from '../../assets/images/weather.png';
 import officeroster from '../../assets/images/officeroster.png';
 import passwordgenerator from '../../assets/images/passwordgenerator.png';
+import everywhere from '../../assets/images/everywhere.png';
 
 function Portfolio() {
   return (
@@ -27,6 +28,26 @@ function Portfolio() {
             <span className='hb-span-text'>Handlebars.js</span> supporting the frontend.{' '}
           </p>
           <a target='_blank' rel='noreferrer' href='https://github.com/emilypape/hike-buddy' className='icon-position'>
+            <Icon className='icon-styles icon-prof-style' icon='akar-icons:github-fill' />
+          </a>
+        </a>
+      </Carousel.Item>
+      <Carousel.Item className='hb-carousel'>
+        <a target='_blank' rel='noreferrer' href='https://still-shore-87425.herokuapp.com/'>
+          <img className='hike-buddy-img' width='100%' src={everywhere} alt='everywhere' />
+          <p className='hike-buddy-description'>
+            <span className='hb-span-text'> Everywhere</span> is a travel site for avid adventurers and travel
+            enthusiasts! Users can personalize their searches through a form that encompasses all of their travel needs!
+            Want to book a stay? <span className='hb-span-text'>Everywhere</span> uses stripe to take your payment and
+            get you on your vacation!
+            <span className='hb-span-text'> Everywhere</span> is built using backend technologies such as{' '}
+            <span className='hb-span-text'>MongoDB</span>, <span className='hb-span-text'>Mongoose</span>,{' '}
+            <span className='hb-span-text'>Express</span>, and <span className='hb-span-text'>GraphQL</span>. With{' '}
+            <span className='hb-span-text'>Javascript</span>,<span className='hb-span-text'>HTML</span>,{' '}
+            <span className='hb-span-text'>Custom CSS</span>, <span className='hb-span-text'>Tailwind</span>, and{' '}
+            <span className='hb-span-text'>React</span> supporting the frontend.{' '}
+          </p>
+          <a target='_blank' rel='noreferrer' href='https://github.com/emilypape/everywhere' className='icon-position'>
             <Icon className='icon-styles icon-prof-style' icon='akar-icons:github-fill' />
           </a>
         </a>
