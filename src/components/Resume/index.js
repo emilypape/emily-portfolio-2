@@ -19,9 +19,11 @@ function Resume() {
             multiple projects or assignments while producing high quality results in an excelerated, deadline-oriented
             environment.{' '}
           </p>
-          <div>
+          <a
+            href='https://docs.google.com/document/d/11Qxr9Kp4HDqm8bPyqkSzoaD0Z9jx0iZuqkTX1hYUcL8/edit?usp=sharing'
+            target='_blank'>
             <button className='cv-btn'>Download Resume</button>
-          </div>
+          </a>
         </div>
       </div>
       <Details />

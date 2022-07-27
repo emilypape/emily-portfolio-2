@@ -14,7 +14,7 @@ function App() {
         <main>
           <Nav />
           <Routes>
-            <Route path='/' element={<About />} />
+            <Route path='/emily-portfolio-2' element={<About />} />
             <Route path='/Portfolio' element={<Portfolio />} />
             <Route path='/Resume' element={<Resume />} />
           </Routes>

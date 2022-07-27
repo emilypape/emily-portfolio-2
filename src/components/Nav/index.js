@@ -22,7 +22,7 @@ function Nav() {
       </a>
       <div className='nav-elements-box'>
         <Link
-          to='/'
+          to='/emily-portfolio-2'
           className={`about-me hover-nav ${isSelected === '/' ? 'selected' : ''}`}
           onClick={() => selectedOnClick('/')}>
           About Me &nbsp; &nbsp;
