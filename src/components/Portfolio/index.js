@@ -33,7 +33,7 @@ function Portfolio() {
         </a>
       </Carousel.Item>
       <Carousel.Item className='hb-carousel'>
-        <a target='_blank' rel='noreferrer' href='https://still-shore-87425.herokuapp.com/'>
+        <a target='_blank' rel='noreferrer' href='https://stark-harbor-20365.herokuapp.com/'>
           <img className='hike-buddy-img' width='100%' src={everywhere} alt='everywhere' />
           <p className='hike-buddy-description'>
             <span className='hb-span-text'> Everywhere</span> is a travel site for avid adventurers and travel
