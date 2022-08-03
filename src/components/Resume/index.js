@@ -14,7 +14,7 @@ function Resume() {
           <h3 className='bio-position-text'>Full Stack Developer</h3>
           <h1 className='bio-name-text'>Emily Pape</h1>
           <p className='second-bio-text'>
-            Exceptionally well rounded, organized and resourceful Professional with one year of developement experience
+            Exceptionally well rounded, organized and resourceful Professional with one year of development experience
             and a solid academic background in Literature and foriegn language. Excellent adaptablilty; able to handle
             multiple projects or assignments while producing high quality results in an excelerated, deadline-oriented
             environment.{' '}
