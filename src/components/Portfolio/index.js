@@ -88,66 +88,6 @@ function Portfolio() {
           <Icon className='icon-styles icon-prof-style' icon='akar-icons:github-fill' />
         </a>
       </Carousel.Item>
-      <Carousel.Item>
-        <a target='_blank' rel='noreferrer' href='https://emilypape.github.io/weather-dashboard/'>
-          <img className='weather-dash-img' width='100%' src={weather} alt='Weather Dashboard' />
-          <p className='weather-dash-description'>
-            {' '}
-            <span className='wd-span-text'>Weather Dashboard</span> utilizes the{' '}
-            <span className='wd-span-text'>OpenWeatherMap API</span> to provide users with a 5-day forecast for a city
-            of their choosing. The user's searches are saved, and can be re-selected to view a previous city's forecast.
-            In addition to providing the current day's weather, it also displays the 5-day forecast for the area.{' '}
-            <span className='wd-span-text'>Weather Dashboard</span> is built using{' '}
-            <span className='wd-span-text'>Javascript</span>, <span className='wd-span-text'>HTML</span>, and{' '}
-            <span className='wd-span-text'>Custom CSS</span>
-          </p>
-        </a>
-        <a
-          target='_blank'
-          rel='noreferrer'
-          href='https://github.com/emilypape/weather-dashboard'
-          className='icon-position'>
-          <Icon className='icon-styles icon-prof-style' icon='akar-icons:github-fill' />
-        </a>
-      </Carousel.Item>
-      <Carousel.Item>
-        <a target='_blank' rel='noreferrer' href='https://github.com/emilypape/office-roster'>
-          <img className='roster-img' width='100%' src={officeroster} alt='Office Roster' />
-          <p className='roster-description'>
-            <span className='or-span-text'>Office Roster</span> is a command line app that builds your work team based
-            off of user input. <span className='or-span-text'>Office Roster</span> is a
-            <span className='or-span-text'>Node.js</span> app that uses the{' '}
-            <span className='or-span-text'>inquirer package</span> to collect information. The application prompts for a
-            manager, engineer, and intern position and generates the HTML page with the user's input.{' '}
-            <span className='or-span-text'>Office Roster</span> uses <span className='or-span-text'>Node.js</span>,
-            <span className='or-span-text'>FS package</span>, <span className='or-span-text'>Inquierer package</span>,{' '}
-            <span className='or-span-text'>Javascript</span>, <span className='or-span-text'>HTML</span>, and{' '}
-            <span className='or-span-text'>Custom CSS</span>{' '}
-          </p>
-        </a>
-        <a target='_blank' rel='noreferrer' href='https://github.com/emilypape/office-roster' className='icon-position'>
-          <Icon className='icon-styles icon-prof-style' icon='akar-icons:github-fill' />
-        </a>
-      </Carousel.Item>
-      <Carousel.Item>
-        <a target='_blank' rel='noreferrer' href='https://emilypape.github.io/password-parakeet/'>
-          <img className='password-gen-img' width='100%' src={passwordgenerator} alt='Password Generator' />
-          <p className='password-description'>
-            <span className='pg-span-text'>Password Generator</span> is a{' '}
-            <span className='pg-span-text'>Javascript</span> application that prompts the user for specific qualities
-            they would like in a password, and then generates a password to meet those paramaters. It is built using{' '}
-            <span className='pg-span-text'>Javascript</span>, <span className='pg-span-text'>HTML</span>, and{' '}
-            <span className='pg-span-text'>CSS</span>
-          </p>
-        </a>
-        <a
-          target='_blank'
-          rel='noreferrer'
-          href='https://github.com/emilypape/password-parakeet'
-          className='icon-position'>
-          <Icon className='icon-styles icon-prof-style' icon='akar-icons:github-fill' />
-        </a>
-      </Carousel.Item>
     </Carousel>
   );
 }
