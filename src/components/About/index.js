@@ -1,6 +1,7 @@
 import React from 'react';
 import backgroundImage from '../../assets/images/emilyBGPic.jpg';
 import headshot from '../../assets/images/headshot.jpeg';
+import frontpic from '../../assets/images/frontpic.jpg';
 
 function About() {
   return (
@@ -9,7 +10,7 @@ function About() {
         <div className='photo-box'>
           <div className='photo-text name-intro'>Hello! I'm</div>
           <div className='photo-text name-style'>Emily Pape</div>
-          <img className='background-image' src={backgroundImage} alt='background' style={{ width: '90%' }} />
+          <img className='background-image' src={frontpic} alt='background' style={{ width: '90%' }} />
           <div className='photo-text position-info'>Full-Stack Developer</div>
           <div className='fashion-line'>.</div>
           <div className='about-box'>
