@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/emily-portfolio-2/static/css/main.0dc99529.css",
-    "main.js": "/emily-portfolio-2/static/js/main.8206e654.js",
+    "main.js": "/emily-portfolio-2/static/js/main.ea5b92bd.js",
     "static/js/787.c3decee6.chunk.js": "/emily-portfolio-2/static/js/787.c3decee6.chunk.js",
     "static/media/smileheadshot.JPG": "/emily-portfolio-2/static/media/smileheadshot.e92f086a7bfda54f8a29.JPG",
     "static/media/hikeBuddy.png": "/emily-portfolio-2/static/media/hikeBuddy.093678fa3b110dcaf0bf.png",
     "static/media/everywhere.png": "/emily-portfolio-2/static/media/everywhere.bda89fc2545b667a6b9b.png",
+    "static/media/frontpic.jpg": "/emily-portfolio-2/static/media/frontpic.3bc346af2ed1fb0a4b8d.jpg",
     "static/media/parkscape.png": "/emily-portfolio-2/static/media/parkscape.d1781b279f57b8ad7e9f.png",
     "static/media/deanna.jpg": "/emily-portfolio-2/static/media/deanna.25506b7681eb8bf8e249.jpg",
     "static/media/emilyBGPic.jpg": "/emily-portfolio-2/static/media/emilyBGPic.b330f8a1559255ec7eb4.jpg",
@@ -17,11 +18,11 @@
     "static/media/headshot.jpeg": "/emily-portfolio-2/static/media/headshot.2258e59275c84a3c6d51.jpeg",
     "index.html": "/emily-portfolio-2/index.html",
     "main.0dc99529.css.map": "/emily-portfolio-2/static/css/main.0dc99529.css.map",
-    "main.8206e654.js.map": "/emily-portfolio-2/static/js/main.8206e654.js.map",
+    "main.ea5b92bd.js.map": "/emily-portfolio-2/static/js/main.ea5b92bd.js.map",
     "787.c3decee6.chunk.js.map": "/emily-portfolio-2/static/js/787.c3decee6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0dc99529.css",
-    "static/js/main.8206e654.js"
+    "static/js/main.ea5b92bd.js"
   ]
 }
