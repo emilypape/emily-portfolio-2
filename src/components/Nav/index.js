@@ -17,9 +17,7 @@ function Nav() {
   return (
     <nav className='nav-bar'>
       <Contact toggleModal={toggleModal} isModalOpen={isModalOpen} />
-      <a className='initial-box'>
-        <div className='initials'>EP</div>
-      </a>
+      <a className='initial-box'></a>
       <div className='nav-elements-box'>
         <Link
           to='/emily-portfolio-2'
